@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/amoCRM-test/static/css/main.c19d3319.css",
+    "main.js": "/amoCRM-test/static/js/main.e4de63b1.js",
+    "static/media/logo_welbex.svg": "/amoCRM-test/static/media/logo_welbex.2e08d1bd108cb8b2aee116b1817d851e.svg",
+    "static/media/whatsapp.svg": "/amoCRM-test/static/media/whatsapp.ebe720f0c912eda28e2bf0613c18300f.svg",
+    "static/media/viber.svg": "/amoCRM-test/static/media/viber.efdbe6bd3950a854df10750809a40828.svg",
+    "index.html": "/amoCRM-test/index.html",
+    "static/media/telegram.svg": "/amoCRM-test/static/media/telegram.fe699dc2f6090f2682544d2cdb1acd74.svg",
+    "main.c19d3319.css.map": "/amoCRM-test/static/css/main.c19d3319.css.map",
+    "main.e4de63b1.js.map": "/amoCRM-test/static/js/main.e4de63b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c19d3319.css",
+    "static/js/main.e4de63b1.js"
+  ]
+}
