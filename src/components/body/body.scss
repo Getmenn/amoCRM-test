@@ -1,0 +1,105 @@
+.body{
+    color: #E4E5EA;
+    width: 1140px;
+    margin-top: 48px;
+
+    .body-title{
+        width: 362px;
+
+        h1{
+            letter-spacing: 1px;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 58px; 
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 20px;
+            color: #E4E5EA;
+            letter-spacing: 1.3px;
+        }
+        
+    }
+}
+
+.body-advantages{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 30px;
+
+    h2{
+        letter-spacing: 0.4px;
+    }
+
+    span{
+        letter-spacing: 1.3px;
+    }
+}
+
+.body-elements-box{
+    flex-wrap: wrap;
+    width: 342px;
+    margin-top: 33px;
+
+    .body__element{
+        margin-right: 34px;
+
+        h2{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 2px;
+            text-align: right;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+    
+        span{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: right;
+            letter-spacing: 1px;
+        }
+    }
+
+    .body__element:nth-child(even){
+        margin: 0;
+    }
+
+    .body__element:nth-child(n+3){
+        margin-top: 21px;
+    }
+
+}
+
+.body__button{
+    width: 262px;
+    height: 61px;   
+    background: #4077F3;
+    margin-top: 56px;
+    color: #E4E5EA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .7px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #2162f8;
+    }
+}
+
+.gradient-text{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}

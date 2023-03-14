@@ -1,0 +1,241 @@
+@media (max-width: 320px){
+    body{
+        align-items: baseline;
+        //overflow: hidden;
+
+        .wrapper, .header, .body, .footer{
+            width: 100%;
+        }
+        
+        .wrapper{
+            position: relative;
+            overflow-x: hidden;
+            height: auto;
+
+            .header{
+                position: fixed;
+                z-index: 2;
+                height: 55px;
+                background: #1E1E1E;
+                margin: 0;
+    
+                .header__logo, .header__number, .header__social{
+                    display: none;
+                }
+    
+                .header__nav{
+                    margin: 0;
+                    padding: 0;
+                    align-items: center;
+    
+                    ul{
+                        margin: 0;
+                        margin-left: 16px;
+                        padding: 0;
+                    }
+
+                    ul li{
+                        font-size: 11px;
+                        text-transform: uppercase;
+                        margin-right: 18px;
+                    }
+
+                    li:last-child{
+                        display: none;
+                    }
+
+                }
+    
+            }
+
+            .body{
+                margin-top: 71px;
+                margin-left: 30px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .body-title{
+                    h1{
+                        font-size: 36px;
+                        line-height: 44px;
+                    }
+
+                    span{
+                        font-size: 36px;
+                        line-height: 44px;
+                    }
+
+                    p{
+                        font-size: 18px;
+                        line-height: 21px;
+                        margin-top: -10px;
+                    }
+                }
+
+                .body-advantages{
+                    margin-top: 12px;
+                    text-align: start;
+                    letter-spacing: 0.3px;
+
+                    p {
+
+                        span{
+                            text-transform: lowercase;
+                            letter-spacing: .4px;
+                        }
+                    }
+                }
+
+                .body-elements-box{
+                    justify-content: flex-start;
+                    width: 320px;
+                    margin-top: -11px;
+                }
+
+                .body__element{
+                    width: 120px;
+                    display: flex;
+                    margin-right: 17px;
+
+                    h2{
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 16px;
+                    }
+
+                    .gradient-line{
+                        display: inline;
+                        background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    span{
+                        display: none;
+                    }
+                }
+
+                .body__element:nth-child(n+3){
+                    margin-top: -9px;
+                }
+
+                button{
+                    display: none;
+                }
+            }
+
+            .footer{
+                background: #0E1014;
+                display: flex;
+                margin-top: 40px;
+                flex-direction: column;
+                padding: 41px 0;
+
+                .footer-about, .footer-menu, .footer-info, .footer-contacts{
+                    margin-left: 16px;
+
+                    h2{
+                        font-size: 12px;
+                        line-height: 23px;
+                    }
+
+                    ul{
+                        font-size: 14px;
+                        line-height: 17px;
+
+                        li{
+                            margin-bottom: 10px;
+                        }
+
+                        li:last-child{
+                            margin:0;
+                        }
+                    }
+                }
+
+                .footer-about{}
+
+                .footer-menu{
+                    ul{
+                        word-wrap: break-word;
+                        width: 125px; 
+                    }
+                }
+
+                .footer-info{
+                    display: grid;
+                    margin-top: -169px;
+                    margin-right: 59px;
+
+                    ul{
+                        word-wrap: break-word;
+                        width: 170px; 
+                    }
+                }
+
+                .footer-contacts{
+                    text-align: start;
+
+                    li{
+                        img{
+                            height: 26px;
+                            width: 24px;
+                            margin-top: -7px;
+                        }
+                    }
+
+                    li:last-child{
+                        margin-top: -13px;
+                    }
+                }
+
+                .footer-policy{
+                    left: 16px;
+                    text-align: start;
+                    bottom: -87px;
+                    height: 100px;
+                }                
+            }
+        }
+             
+
+        .purple-ball{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 296px;
+            top: 283px;
+        }
+          
+        .red-ball{
+            position: absolute;
+            width: 43px;
+            height: 43px;
+            left: 29px;
+            top: 457px;
+        
+        }
+        
+        .red-ball-second{
+            display: none;
+        }
+        
+        .purple-light{
+            width: 259px;
+            height: 259px;
+            left: 258px;
+            top: 107px;
+            opacity: 0.7;
+        }
+        
+        .red-light{
+            width: 211px;
+            height: 210px;
+            left: -55px;
+            top: 241px;
+            opacity: 0.7;
+        }
+    }
+}
